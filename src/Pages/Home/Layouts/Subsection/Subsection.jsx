@@ -25,7 +25,8 @@ const Subsection = () => {
             </div>
         <div className="author-head-p">
         <h5>-martin Odhiambo-</h5>  
-        <p className="smallfont" >i saw the problem which was arising over the past years. many people could be at times find it hard to transport, organize their work together with house exchange but now with this plaform e are solving this problem </p>
+        <h6>-Aeronautical Engineer-</h6>
+        <p className="smallfont" >"I recognized a growing challenge over the past few years: many people struggled with the complexities of transporting their belongings and organizing their work during house exchanges. With this platform, we are now providing a solution to these issues, making the process seamless and stress-free."</p>
         </div>
           </div>
 </div>
