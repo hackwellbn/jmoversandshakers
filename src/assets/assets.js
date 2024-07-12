@@ -6,6 +6,9 @@ import ExplanationImage from './360_F_737958205_iZSoMZyfWuyZBlv2dqwGDT1vJL2HVX0r
 import PortfolioImage from "./IMG-20240712-WA0005.jpg"
 import PortfolioImage2 from "./IMG-20240712-WA0002.jpg"
 import PortfolioImage3 from "./IMG-20240712-WA0008.jpg"
+import House1 from "./360_F_733226105_AdHo3grcwfUIdTlEOE9etPqkx6Qlwose.webp"
+import House2 from "./360_F_713872808_LhwJnN9SpK7feZiIwrbcoTIhGAiTYGfo.webp"
+import House3 from "./360_F_588802542_88RFrzlFiIVJIOH9un9ZtiHukhZsqBLK.webp"
 export const HeroBanner = [{
   image: Banner,
 }];
@@ -26,5 +29,8 @@ export const AuthorImageText ={
   PortfolioImage,
   PortfolioImage2,
   PortfolioImage3,
+  House1,
+  House2,
+  House3,
 }
 export default assets;

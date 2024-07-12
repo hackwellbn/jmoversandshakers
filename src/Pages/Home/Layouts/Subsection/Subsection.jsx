@@ -40,19 +40,19 @@ const Subsection = () => {
           </div>
           <div className="cardbody-text">
             <div className="cardbody-image">
-              <img src={HeroBanner[0].image} alt="Innovative Solutions" />
+              <img src={AuthorImageText.House3} alt="Innovative Solutions" />
             </div>
             <p>We utilize the latest technology and innovative methods to make your move more efficient and stress-free.</p>
           </div>
           <div className="cardbody-text">
             <div className="cardbody-image">
-              <img src={HeroBanner[0].image} alt="Community Involvement" />
+              <img src={AuthorImageText.House2} alt="Community Involvement" />
             </div>
             <p>We believe in giving back. Our company is actively involved in community programs and local charities.</p>
           </div>
           <div className="cardbody-text">
             <div className="cardbody-image">
-              <img src={HeroBanner[0].image} alt="Eco-Friendly Practices" />
+              <img src={AuthorImageText.House1} alt="Eco-Friendly Practices" />
             </div>
             <p>We are committed to sustainability. Our eco-friendly practices ensure minimal environmental impact during your move.</p>
           </div>
