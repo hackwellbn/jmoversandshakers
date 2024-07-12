@@ -51,8 +51,8 @@
   object-fit: cover;
 }
 .Textauthor{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   align-items:center;
   
 }
@@ -60,7 +60,7 @@
   background: var(  --section-background-color);
   padding: 20px;
 }
-.Textauthor h3,
+.Textauthor .heading3 h3,
 .Textauthor .auther-image{
   flex: 1 1 200px;
 }

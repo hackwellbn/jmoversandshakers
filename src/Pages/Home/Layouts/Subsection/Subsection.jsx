@@ -18,7 +18,7 @@ const Subsection = () => {
         <div className="body-wrapper">
 <div className="author-textImage">
   <div className="Textauthor">
-    <h3>what made our foundation to work </h3>
+   <span className='heading3'> <h3>what made our foundation to work </h3></span>
           <div className="auther-image">
             <img src={AuthorImageText.AuthorImage} alt="Why We Stand Out" />
           </div>
@@ -26,7 +26,7 @@ const Subsection = () => {
         <div className="author-head-p">
         <h5>-martin Odhiambo-</h5>  
         <h6>-Aeronautical Engineer-</h6>
-        <p className="smallfont" >"I recognized a growing challenge over the past few years: many people struggled with the complexities of transporting their belongings and organizing their work during house exchanges. With this platform, we are now providing a solution to these issues, making the process seamless and stress-free."</p>
+        <p className="smallfont" >"I recognized a growing challenge: people struggled with transporting belongings and organizing work during house exchanges. Our platform provides a seamless, stress-free solution."</p>
         </div>
           </div>
 </div>
