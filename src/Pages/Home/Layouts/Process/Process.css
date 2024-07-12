@@ -2,6 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   padding: 40px 0;
+  
+}
+h5{
+  padding: 10px;
 }
 #body{
   width: 80%;
@@ -23,6 +27,7 @@
 }
 .box{
   flex: 1 1 200px;
+  paddding: 10px;
 }
 #lined-box{
   border: 1px solid var(--feature-text-color) ;
@@ -39,6 +44,7 @@
   color: #000;
   border-radius: 5px;
   border: none;
+  margin-bottom: 10px
 }
 .colored-btn{
   border: none;
