@@ -1,0 +1,52 @@
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+#body{
+  width: 80%;
+  margin: auto;
+}
+.body{
+  flex: 1 1 200px;
+  
+}
+.body img{
+  width: 100%;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.box{
+  flex: 1 1 200px;
+}
+#lined-box{
+  border: 1px solid var(--feature-text-color) ;
+  padding: 10px;
+  margin: auto;
+}
+.btns{
+  display: flex;
+    gap: 10px;
+}
+.btn{
+  background: #fff;
+  padding: 20px 12px;
+  color: #000;
+  border-radius: 5px;
+  border: none;
+}
+.colored-btn{
+  border: none;
+  background: transparent;
+  color:var(--feature-text-color) ;
+  padding: 24px 12px;
+}
+.colored-btn:hover{
+  border:  1px solid #fff;
+  transition: 300ms;
+}

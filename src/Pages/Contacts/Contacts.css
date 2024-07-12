@@ -1,0 +1,5 @@
+.contacts {
+  padding: 2rem;
+  background-color: var(--section-background-color);
+  color: var(--section-text-color);
+}
