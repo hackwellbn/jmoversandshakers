@@ -47,7 +47,7 @@ const Subsection = () => {
           </div>
           <div className="cardbody-text">
             <div className="cardbody-image">
-              <img src={AuthorImageText.House2} alt="Community Involvement" />
+              <img src={AuthorImageText.CharityImage} alt="Community Involvement" />
             </div>
             <p>We believe in giving back. Our company is actively involved in community programs and local charities.</p>
           </div>

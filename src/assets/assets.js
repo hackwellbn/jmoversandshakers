@@ -9,6 +9,7 @@ import PortfolioImage3 from "./IMG-20240712-WA0008.jpg"
 import House1 from "./360_F_733226105_AdHo3grcwfUIdTlEOE9etPqkx6Qlwose.webp"
 import House2 from "./360_F_713872808_LhwJnN9SpK7feZiIwrbcoTIhGAiTYGfo.webp"
 import House3 from "./360_F_588802542_88RFrzlFiIVJIOH9un9ZtiHukhZsqBLK.webp"
+import CharityImage from "./360_F_819037291_ODoYZxS7AO3gETaee98xxwZ7dapay0n5.webp"
 export const HeroBanner = [{
   image: Banner,
 }];
@@ -32,5 +33,6 @@ export const AuthorImageText ={
   House1,
   House2,
   House3,
+  CharityImage,
 }
 export default assets;
