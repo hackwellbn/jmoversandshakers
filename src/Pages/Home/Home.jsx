@@ -7,6 +7,7 @@ import HomeSection from './Layouts/HomeSection/HomeSection'
 import MissionValues from './Layouts/MissionValues/MissionValues'
 import Subsection from './Layouts/Subsection/Subsection'
 import Explanation from './Layouts/Explanation/Explanation'
+import Counter from './Layouts/Counter/Counter'
 import './Home.css';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     <div className="home">
 <Hero />
 <Features />
+<Counter />
 <Process/>
 <Portfolio />
 <HomeSection />
