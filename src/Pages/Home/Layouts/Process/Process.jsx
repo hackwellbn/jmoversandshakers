@@ -16,7 +16,7 @@ const Process = () => {
             <p>Our transport units prioritize the highest level of security for your belongings.</p>
           </div>
           <div className="box">
-            <p>;We operate in areas such as Lucky Summer - Nairobi, Thika, Kiambu, and provide long-distance services, including routes from Nairobi to Kisumu.</p>
+            <p>We operate in areas such as Lucky Summer - Nairobi, Thika, Kiambu, and provide long-distance services, including routes from Nairobi to Kisumu.</p>
           </div>
           <div className="box">
             <p>We are dedicated to providing you with the utmost service.</p>

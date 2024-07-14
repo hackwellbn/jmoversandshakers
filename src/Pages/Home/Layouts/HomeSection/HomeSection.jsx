@@ -22,7 +22,7 @@ const HomeSection = () => {
 
     return (
         <div className="Homecontainer">
-            <h1>JMoversAndShakers - Home Section</h1>
+            <h1>for house exchange & more?</h1>
             <p>At JMoversAndShakers, we specialize in helping you seamlessly exchange homes by transporting and perfectly placing your belongings in your new space. Our professional team ensures a hassle-free moving experience, giving you peace of mind and making your transition smooth and stress-free.</p>
             <section id="cards" className="cards">
                 <div className="card">
