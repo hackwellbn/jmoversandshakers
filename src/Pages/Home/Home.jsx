@@ -8,6 +8,7 @@ import MissionValues from './Layouts/MissionValues/MissionValues'
 import Subsection from './Layouts/Subsection/Subsection'
 import Explanation from './Layouts/Explanation/Explanation'
 import Counter from './Layouts/Counter/Counter'
+import Partners from './Layouts/Partners/Partners'
 import './Home.css';
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
 <MissionValues />
 <Subsection />
 <Explanation/>
+<Partners />
     </div>
   );
 }

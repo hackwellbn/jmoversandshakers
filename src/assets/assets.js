@@ -10,6 +10,11 @@ import House1 from "./360_F_733226105_AdHo3grcwfUIdTlEOE9etPqkx6Qlwose.webp"
 import House2 from "./360_F_713872808_LhwJnN9SpK7feZiIwrbcoTIhGAiTYGfo.webp"
 import House3 from "./360_F_588802542_88RFrzlFiIVJIOH9un9ZtiHukhZsqBLK.webp"
 import CharityImage from "./360_F_819037291_ODoYZxS7AO3gETaee98xxwZ7dapay0n5.webp"
+import Elevated from "./436352453_446110844823446_208763884076569546_n.jpg"
+import tailoRose from "./Photo_1715728871664.png"
+import seniorsChoir from './img_2_1720967930498.jpg'
+import BlessedFabricators from "./logo_-BbHe6ogA.png"
+import Campredemption from "./photo.jpg"
 export const HeroBanner = [{
   image: Banner,
 }];
@@ -34,5 +39,12 @@ export const AuthorImageText ={
   House2,
   House3,
   CharityImage,
+}
+export const Logos = {
+ Elevated,
+ tailoRose,
+ seniorsChoir,
+ BlessedFabricators,
+ Campredemption,
 }
 export default assets;
