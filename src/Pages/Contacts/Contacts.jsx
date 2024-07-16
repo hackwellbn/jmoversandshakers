@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contacts.css';
+import { contactImages } from '../../assets/assets';
 
 const Contacts = () => {
   const [result, setResult] = useState("");
@@ -32,27 +33,29 @@ const Contacts = () => {
       <h2>Contact Us</h2>
       <p>If you have any questions or need a quote, feel free to reach out!</p>
       <section className="contact-us">
-        <div className="contact-form-container">
-          <form onSubmit={onSubmit}>
-            <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div className="form-group">
-              <label htmlFor="phone">Phone Number</label>
-              <input type="tel" id="phone" name="phone" required />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-            <button type="submit">Submit</button>
-          </form>
-          <span>{result}</span>
+        <div className="contact-wrapper">
+          <img src={contactImages.ContactImage1} alt="contact" />
+        </div>
+        <div className="contact-wrapper">
+          <div className="contact-form-container">
+            <form>
+            <section onSubmit={onSubmit} className="formData">
+              <div className="form-group">
+                <input type="text" id="name" name="name" placeholder="Enter your username" required />
+                <input type="email" id="email" name="email" placeholder="Email" required />
+              </div>
+              <div className="form-group">
+                <input type="tel" id="phone" name="phone" placeholder="Phone number" required />
+                <input type="text" id="text" placeholder="From to" />
+              </div>
+              <div className="form-group">
+                <textarea id="message" name="message" placeholder="Add a little bit more info" required></textarea>
+              </div>
+            </section>
+                        <div className="bttn">  <button type="submit">Submit</button></div>
+            </form>
+            <span>{result}</span>
+          </div>
         </div>
       </section>
       <ul className="contact-details">

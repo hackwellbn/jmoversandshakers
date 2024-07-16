@@ -15,6 +15,7 @@ import tailoRose from "./Photo_1715728871664.png"
 import seniorsChoir from './img_2_1720967930498.jpg'
 import BlessedFabricators from "./logo_-BbHe6ogA.png"
 import Campredemption from "./photo.jpg"
+import ContactImage1 from './7daaa26d-1a0a-49f3-8b40-bc9b6702f154.png'
 export const HeroBanner = [{
   image: Banner,
 }];
@@ -46,5 +47,8 @@ export const Logos = {
  seniorsChoir,
  BlessedFabricators,
  Campredemption,
+}
+export const contactImages = {
+  ContactImage1,
 }
 export default assets;
