@@ -59,7 +59,7 @@ const Contacts = () => {
         </div>
       </section>
       <ul className="contact-details">
-        <li>Phone: +254 702 105917</li>
+        <li>Phone: +1 (424) 476-6432</li>
         <li>Email: jmoversandshakers@gmail.com</li>
         <li>Address: LuckySummer, Nairobi, 00618</li>
       </ul>
