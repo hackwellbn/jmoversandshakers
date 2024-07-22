@@ -2,7 +2,12 @@ import React from 'react';
 import './Process.css';
 import { HeroBanner } from "../../../../assets/assets";
 
+
 const Process = () => {
+  const ContactLink =(e) =>{
+    e.preventDefault();
+    href.location = "/contacts"
+  }
   return (
     <div className='wrapper'>
       <section className="body" id="body">
@@ -23,7 +28,7 @@ const Process = () => {
           </div>
           <div className="btns">
             <button className="btn">Explore</button>
-            <button className="colored-btn">Talk with us</button>
+            <button className="colored-btn" onClick={ContactLink}>Talk with us</button>
           </div>
         </div>
       </section>

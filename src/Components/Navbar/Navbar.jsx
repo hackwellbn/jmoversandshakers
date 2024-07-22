@@ -23,6 +23,9 @@ const Navbar = () => {
           <li className="navbar-item">
             <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink>
           </li>
+                        <li className="navbar-item btn">
+            <NavLink to="/signUp" className={({ isActive }) => (isActive ? 'active' : '')}>signUp</NavLink>
+          </li>
         </ul>
       </div>
       {!menuActive && (
@@ -43,6 +46,9 @@ const Navbar = () => {
           </li>
           <li className="navbar-item">
             <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink>
+          </li>
+              <li className="navbar-item">
+            <NavLink to="/signUp" className={({ isActive }) => (isActive ? 'active' : '')}>signUp</NavLink>
           </li>
         </ul>
       </div>
