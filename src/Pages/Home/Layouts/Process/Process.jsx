@@ -1,13 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import './Process.css';
 import { HeroBanner } from "../../../../assets/assets";
 
-
 const Process = () => {
-  const ContactLink =(e) =>{
-    e.preventDefault();
-    href.location = "/contacts"
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  const BookingLink = (e) => {
+    e.preventDefault(); // Prevent default behavior
+    navigate('/booking'); // Navigate to the Booking route
   }
+
   return (
     <div className='wrapper'>
       <section className="body" id="body">
@@ -28,7 +31,7 @@ const Process = () => {
           </div>
           <div className="btns">
             <button className="btn">Explore</button>
-            <button className="colored-btn" onClick={ContactLink}>Talk with us</button>
+            <button className="colored-btn" onClick={BookingLink}>Book Now!</button>
           </div>
         </div>
       </section>
