@@ -18,7 +18,7 @@ const Booking = () => {
 
   const submitBooking = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/book', {
+      const response = await fetch('https://jmoversandshakers.onrender.com/api/book', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
