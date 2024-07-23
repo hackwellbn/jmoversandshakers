@@ -1,0 +1,94 @@
+/* SignIn.css */
+
+.SignIn-card {
+  background-color: var(--feature-background-color);
+  color: var(--feature-text-color);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signin-body {
+  margin-bottom: 15px;
+}
+
+.signin-body input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--section-background-color);
+  border-radius: 4px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.signin-body input::placeholder {
+  color: var(--text-color);
+}
+
+button {
+  background-color: var(--nav-background-color);
+  color: var(--nav-text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--section-background-color);
+}
+
+button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.open-message {
+  background-color: var(--feature-background-color);
+  color: var(--feature-text-color);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.open-message p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.open-message a {
+  text-decoration: none;
+}
+
+.open-message button {
+  background-color: var(--nav-background-color);
+  color: var(--nav-text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.open-message button:hover {
+  background-color: var(--section-background-color);
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  padding: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
