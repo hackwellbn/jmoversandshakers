@@ -1,0 +1,97 @@
+.contacts {
+  background-color: var(--section-background-color);
+  color: var(--section-text-color);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.contacts h2 {
+  margin-bottom: 20px;
+}
+
+.contacts p {
+  margin-bottom: 40px;
+}
+
+.contact-us {
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contact-wrapper{
+  flex: 1 1 200px;
+  
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.
+
+.contact-form-container {
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container .form-group {
+  margin-bottom: 15px;
+  flex: 1 1 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contact-form-container .form-group input,
+.contact-form-container .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  flex: 1 1 200px;
+}
+
+.contact-form-container .form-group textarea {
+  resize: vertical;
+  height: 150px;
+}
+.contact-form-container .form-group textarea
+{
+  flex: 1 1 200px;
+}
+.contact-form-container button[type="submit"] {
+  background-color: var(--feature-background-color);
+  color: var(--feature-text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form-container button[type="submit"]:hover {
+  background-color: #454a50; /* Adjust this for hover effect */
+}
+
+.contact-details {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-details li {
+  margin-bottom: 10px;
+}
+
+.contact-form-container span {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,52 @@
+
+/* Base styles */
+.features {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: var(--section-background-color);
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature-item {
+  background-color: var(--feature-background-color);
+  color: var(--feature-text-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  flex: 1 1 calc(100% - 2rem); /* Full width minus gap on small screens */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .features {
+    padding: 20px 40px;
+  }
+  .feature-item {
+    flex: 1 1 calc(50% - 2rem); /* Two columns layout */
+  }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  .features {
+    padding: 20px 80px;
+  }
+  .feature-item {
+    flex: 1 1 calc(33.333% - 2rem); /* Three columns layout */
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .features {
+    padding: 20px 160px;
+  }
+  .feature-item {
+    flex: 1 1 calc(25% - 2rem); /* Four columns layout */
+  }
+}
