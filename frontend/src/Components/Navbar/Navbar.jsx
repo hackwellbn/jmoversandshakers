@@ -30,7 +30,7 @@ const Navbar = () => {
 
   const handleNotificationClick = async () => {
     try {
-      await fetch('http://localhost:3000/api/notifications/mark-all-read', {
+      await fetch('https://jmoversandshakers.onrender.com/api/notifications/mark-all-read', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json'
