@@ -16,7 +16,7 @@ const Navbar = () => {
   useEffect(() => {
     const fetchNotifications = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/notifications');
+        const response = await fetch('https://jmoversandshakers.onrender.com/api/notifications');
         const data = await response.json();
         setNotifications(data);
         setUnreadCount(data.filter(notif => !notif.read).length);
