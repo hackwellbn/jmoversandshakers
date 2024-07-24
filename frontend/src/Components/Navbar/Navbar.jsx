@@ -16,7 +16,7 @@ const Navbar = () => {
   useEffect(() => {
     const fetchNotifications = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/notifications');
+        const response = await fetch('https://jmoversandshakers.onrender.com/api/notifications');
         const data = await response.json();
         setNotifications(data);
         setUnreadCount(data.filter(notif => !notif.read).length);
@@ -30,7 +30,7 @@ const Navbar = () => {
 
   const handleNotificationClick = async () => {
     try {
-      await fetch('http://localhost:3000/api/notifications/mark-all-read', {
+      await fetch('https://jmoversandshakers.onrender.com/api/notifications/mark-all-read', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json'
