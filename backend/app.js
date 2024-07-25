@@ -19,7 +19,7 @@ app.use(helmet());
 
 // CORS Configuration
 app.use(cors({
-  origin: 'http://localhost:5173', // Allow frontend to access backend
+  origin: 'https://jmoversandshakersfrontendtestt.onrender.com', // Allow frontend to access backend
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type']
 }));
